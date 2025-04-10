@@ -62,7 +62,7 @@ h1 {
 }
 
 .card:hover {
-    box-shadow: 0  0 45px red);
+    box-shadow: 0  0 45px (red);
     transform: scale(1.1);
     background-color: rgb(255, 127, 127);
 }
@@ -81,3 +81,22 @@ section{
     color:blueviolet;
     margin-bottom: 30px;
 }
+
+.wew{
+    width: 65px;
+}
+
+.testimonials{
+    border: 3px solid red;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(119, 255, 0);
+    transition: all ease-in .4s;
+}
+
+.testimonials:hover{
+    transform: scale(1.1);
+}
+ .review h2 {
+    font-size: 55px;
+ }
